@@ -7,3 +7,4 @@ states_of_america[1] = "Pencilvania"
 print(states_of_america[1])
 states_of_america.append("Sattam")
 print(states_of_america[-1]=="Sattam")
+
