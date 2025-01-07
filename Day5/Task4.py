@@ -22,4 +22,4 @@ for i in range(0, nr_numbers):
 
 random.shuffle(password)
 for i in range(0,len(password)):
-    print(password[i], end = '')
+    print(password[i], end = "")
