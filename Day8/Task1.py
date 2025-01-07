@@ -5,3 +5,9 @@ def greet(input):
     print("Marhaba")
 
 greet("Sattam")
+
+def greet_with_name(name):
+    print(f"Hello, {name}!")
+    print(f"Hola, {name}!")
+
+greet_with_name("Sattam")
