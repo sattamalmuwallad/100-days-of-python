@@ -2,7 +2,6 @@ from pic import sattam ## The name of the image is sattam
 import random
 
 def score(data):
-    """Calculate the score of a hand."""
     if sum(data) == 21 and len(data) == 2:
         return 21  
     if 11 in data and sum(data) > 21:
@@ -37,8 +36,8 @@ def playgame():
     print(sattam)
     player_hand = [deal(),deal()]
     computer_hand = [deal(),deal()]
-    gameover = False
 
+    gameover = False
     while not gameover:
         playerScore = score(player_hand)
         computerScore = score(computer_hand)
@@ -53,7 +52,6 @@ def playgame():
             if cont.lower() == "y":
                 player_hand.append(deal())
             else:
-                print("ddd")
                 gameover = True
 
     while computerScore != 21 and computerScore < 17:
@@ -63,9 +61,11 @@ def playgame():
     print(f"Your final hand: {player_hand}, final Score: {playerScore}")
     print(f"Computer's final hand: {computer_hand}, final Score: {computerScore}")      
     print(result(playerScore,computerScore))
+
+
+
 while True:
     playgame()
     call = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ")
     if call.lower() != "y":
         break
-
