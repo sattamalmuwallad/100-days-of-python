@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from art import logo, vs
 from game_data import data
 import random
@@ -49,7 +48,3 @@ while game:
     else:
         print(f"Sorry, that's wrong. Final score: {score}.")
         game = False
-=======
-#hello
-x =5 
->>>>>>> d39ad02671dccf9edb50a7df632564e481721823
