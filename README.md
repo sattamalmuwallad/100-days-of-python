@@ -161,3 +161,4 @@ I'll be using this repo as a way for myself to access them as, if and when I nee
 - Authentication
 - Web Design
 - Deployment with GitHub Pages, Heroku and GUnicorn
+- This should be done by April
