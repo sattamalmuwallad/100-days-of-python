@@ -30,7 +30,7 @@ I'll be using this repo as a way for myself to access them as, if and when I nee
 - [Day 14](Day14): Higher Lower Game Project
 
 ## 🏋🏻‍♂️ Intermediate
-- [Day 15](Day15): Local Development Environment Setup & the Coffee Machine Project
+- [Day 15](Day15): Local Development Environment Setup & the Coffee Machine Project.
 - [Day 16](Day16): Object Oriented Programming (OOP)
 - [Day 17](Day17): The Quiz Project & the Benefits of OOP
 - [Day 18](Day18): Turtle Graphics and GUIs
