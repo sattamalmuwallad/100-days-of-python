@@ -8,5 +8,15 @@ menu = Menu()
 
 order = True
 
-print(menu.get_items())
-## choice = input(print(f"What would you like? {menu.get_items()}"))
+
+while order:
+    choice = input(f"What would you like? {menu.get_items()}: ")
+    if choice.lower() == "off":
+        order = False
+    elif choice.lower() == "report":
+        coffeemaker.report()
+        moneymachine.report()
+    else:
+        drink = menu.find_drink(choice)
+        print(drink)
+        
