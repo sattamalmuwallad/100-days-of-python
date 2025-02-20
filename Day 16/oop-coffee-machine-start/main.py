@@ -2,7 +2,7 @@ from menu import Menu
 from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine
 
-moneymachine = MoneyMachine()
+money = MoneyMachine()
 coffeemaker = CoffeeMaker()
 menu = Menu()
 
@@ -15,8 +15,9 @@ while order:
         order = False
     elif choice.lower() == "report":
         coffeemaker.report()
-        moneymachine.report()
+        money.report()
     else:
         drink = menu.find_drink(choice)
-        print(drink)
-        
+        if coffeemaker.is_resource_sufficient(drink):
+            if money.make_payment(drink.cost):
+                coffeemaker.make_coffee(drink)
