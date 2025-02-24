@@ -162,3 +162,5 @@ I'll be using this repo as a way for myself to access them as, if and when I nee
 - Web Design
 - Deployment with GitHub Pages, Heroku and GUnicorn
 - This should be done by April hopefully.Might get postponed due to semester. slowly making progress.....
+
+- this is a mess
